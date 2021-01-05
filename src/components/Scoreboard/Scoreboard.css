@@ -1,0 +1,32 @@
+.Scoreboard {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2E3440;
+  color: #88C0D0;
+  grid-area: 1 / 1 / 1 / 4;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  align-items: center;
+  text-align: center;
+  border-bottom: 5px solid #B48EAD;
+}
+
+.Scores {
+  list-style-type: none;
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+
+li {
+  display: inline-flex;
+  margin: 0;
+  color: #D8DEE9;
+}
+
+li p {
+  padding: 0 5px;
+  font-size: 1.17em;
+  color: #BF616A;
+}

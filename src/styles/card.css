@@ -1,0 +1,32 @@
+.card:hover {
+  transform: scale(1.1);
+}
+
+.ticker, .name {
+  display: block;
+  max-height: 100%;
+  background-color: #2E3440;
+  color: #ECEFF4;
+  height: -webkit-fill-available;
+  padding: 10px;
+
+}
+
+.ticker {
+  grid-area: 1;
+  font-size: 4vw;
+}
+
+img {
+  max-width: 80%;
+  height: 80%;
+  margin: auto;
+  grid-area: 2;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.name {
+  grid-area: 3;
+  font-size: 1.5vw;
+}
